@@ -5,7 +5,7 @@ Nine Men's Morris (Mühle). Reines Python-Regelwerk, kein I/O im Kern.
 Erste AIX-Arbeit auf dem M4: fail-closed Züge, rote Tests, `aix-solve`.
 
 ## Build / Test / Run
-- Test: `python3.14 tests/test_board.py` (grün) und `python3.14 tests/test_place.py` (Job 1 rot)
+- Test: `python3.14 tests/test_board.py` (grün) und `python3.14 tests/test_place.py` (Job 1 grün)
 - Suite: `python3.14 -m pytest -q`
 - Nächster Auftrag: `CURRICULUM.md`
 

@@ -3,7 +3,7 @@
 Jedes Job ist ein `aix-solve` mit eigenem rotem Test. Kein I/O bis Job 8.
 Brettgraph (`tests/test_board.py`) bleibt immer grün.
 
-## Job 1 — Stein setzen (jetzt, muss rot sein)
+## Job 1 — Stein setzen (grün, 0 Token)
 
 `place(board, point, color)` in `muehle/rules.py`. Kopie des Bretts, Punkt
 `white` oder `black`. `MuehleError` bei unbekanntem Punkt, belegtem Punkt,
