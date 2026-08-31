@@ -39,6 +39,10 @@ def capture(board, point, by_color):
     stone = board.get(point)
     if stone is None or stone == by_color:
         raise MuehleError
+    if forms_mill(board, point):
+        others = [p for p, color in board.items() if color == stone]
+        if not all(forms_mill(board, p) for p in others):
+            raise MuehleError
     out = dict(board)
     out[point] = None
     return out

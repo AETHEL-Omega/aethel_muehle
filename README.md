@@ -13,7 +13,8 @@ python3.14 tests/test_board.py     # muss GRÜN sein (Brettgraph)
 python3.14 tests/test_place.py     # Job 1 grün
 python3.14 tests/test_forms_mill.py  # Job 2 grün
 python3.14 tests/test_capture.py     # Job 3 grün
+python3.14 tests/test_mill_protection.py  # Job 4 grün
 ```
 
 Übernehmen nur bei `proof_strength=strong`. Testdateien nicht umschreiben.
-Nächste Jobs: `CURRICULUM.md` (Job 4 Mühle-Schutz).
+Nächste Jobs: `CURRICULUM.md` (Job 5 `move`).

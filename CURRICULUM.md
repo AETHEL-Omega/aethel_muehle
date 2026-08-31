@@ -28,7 +28,7 @@ False. Kein Token — dieselben 16 Masken wie `MILLS`.
 oder `by_color` ungültig ist. Eingabe-Brett nicht mutieren. Mühle-Schutz
 ist Job 4.
 
-## Job 4 — Mühle-Steine sind geschützt
+## Job 4 — Mühle-Steine sind geschützt (grün, 0 Token)
 
 `capture` verweigert einen Stein, der in einer Mühle steht, **es sei denn**
 alle gegnerischen Steine stehen in Mühlen.
