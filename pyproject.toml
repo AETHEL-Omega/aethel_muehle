@@ -1,0 +1,10 @@
+[project]
+name = "aethel-muehle"
+version = "0.1.0"
+description = "Nine Men's Morris (Mühle). Pure Python rules engine for AIX on Apple Silicon."
+requires-python = ">=3.9"
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
