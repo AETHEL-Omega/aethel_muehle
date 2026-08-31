@@ -12,7 +12,8 @@ cd ~/workspace/aethel_muehle
 python3.14 tests/test_board.py     # muss GRÜN sein (Brettgraph)
 python3.14 tests/test_place.py     # Job 1 grün
 python3.14 tests/test_forms_mill.py  # Job 2 grün
+python3.14 tests/test_capture.py     # Job 3 grün
 ```
 
 Übernehmen nur bei `proof_strength=strong`. Testdateien nicht umschreiben.
-Nächste Jobs: `CURRICULUM.md` (Job 3 `capture`).
+Nächste Jobs: `CURRICULUM.md` (Job 4 Mühle-Schutz).

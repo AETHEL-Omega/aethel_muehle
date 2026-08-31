@@ -21,10 +21,12 @@ aix-solve "Add place(board, point, color) in muehle/rules.py. Copy the board, se
 `point` Teil einer vollen dreier Mühle seiner Farbe ist. Leerer Punkt:
 False. Kein Token — dieselben 16 Masken wie `MILLS`.
 
-## Job 3 — Schlagen nach Mühle
+## Job 3 — Schlagen nach Mühle (grün, 0 Token)
 
 `capture(board, point, by_color)`. Entfernt einen gegnerischen Stein.
-`MuehleError` wenn der Punkt leer ist oder die eigene Farbe trägt.
+`MuehleError` wenn der Punkt leer ist, unbekannt, die eigene Farbe trägt
+oder `by_color` ungültig ist. Eingabe-Brett nicht mutieren. Mühle-Schutz
+ist Job 4.
 
 ## Job 4 — Mühle-Steine sind geschützt
 
