@@ -2,7 +2,7 @@
 
 No I/O, no network, no randomness. Illegal actions raise MuehleError.
 """
-from muehle.board import COLORS, POINTS
+from muehle.board import COLORS, MILLS, POINTS
 
 
 class MuehleError(ValueError):
@@ -19,3 +19,13 @@ def place(board, point, color):
     out = dict(board)
     out[point] = color
     return out
+
+
+def forms_mill(board, point):
+    color = board.get(point)
+    if color is None:
+        return False
+    for mill in MILLS:
+        if point in mill and all(board.get(p) == color for p in mill):
+            return True
+    return False

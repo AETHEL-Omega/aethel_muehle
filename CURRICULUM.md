@@ -15,10 +15,11 @@ aix-solve "Add place(board, point, color) in muehle/rules.py. Copy the board, se
   --test "python3.14 tests/test_place.py" --repo .
 ```
 
-## Job 2 — Mühle erkennen
+## Job 2 — Mühle erkennen (grün, 0 Token)
 
 `forms_mill(board, point) -> bool`. True genau dann, wenn der Stein auf
-`point` Teil einer vollen dreier Mühle seiner Farbe ist.
+`point` Teil einer vollen dreier Mühle seiner Farbe ist. Leerer Punkt:
+False. Kein Token — dieselben 16 Masken wie `MILLS`.
 
 ## Job 3 — Schlagen nach Mühle
 

@@ -5,9 +5,9 @@ Nine Men's Morris (Mühle). Reines Python-Regelwerk, kein I/O im Kern.
 Erste AIX-Arbeit auf dem M4: fail-closed Züge, rote Tests, `aix-solve`.
 
 ## Build / Test / Run
-- Test: `python3.14 tests/test_board.py` (grün) und `python3.14 tests/test_place.py` (Job 1 grün)
+- Test: `python3.14 tests/test_board.py`, `tests/test_place.py`, `tests/test_forms_mill.py`
 - Suite: `python3.14 -m pytest -q`
-- Nächster Auftrag: `CURRICULUM.md`
+- Nächster Auftrag: Job 3 `capture` in `CURRICULUM.md`
 
 ## Konventionen
 - Keine neuen Abhängigkeiten. Kein Netz. Kein Zufall außer in Job 10 mit Seed.

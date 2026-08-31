@@ -10,12 +10,9 @@ zu zweit im Terminal. Danach kommt die Maschine als Gegner.
 ```bash
 cd ~/workspace/aethel_muehle
 python3.14 tests/test_board.py     # muss GRÜN sein (Brettgraph)
-python3.14 tests/test_place.py     # muss ROT sein (place fehlt)
-
-aix-solve "Add place(board, point, color) in muehle/rules.py. Copy the board, set point to white or black. Raise MuehleError if point unknown, occupied, or color not white/black. Do not mutate the input board." \
-  --test "python3.14 tests/test_place.py" \
-  --repo .
+python3.14 tests/test_place.py     # Job 1 grün
+python3.14 tests/test_forms_mill.py  # Job 2 grün
 ```
 
 Übernehmen nur bei `proof_strength=strong`. Testdateien nicht umschreiben.
-Nächste Jobs: `CURRICULUM.md`.
+Nächste Jobs: `CURRICULUM.md` (Job 3 `capture`).
